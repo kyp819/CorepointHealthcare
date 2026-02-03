@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "452750923723",
+    "project_id": "corepoint-healthcare-5f773",
+    "storage_bucket": "corepoint-healthcare-5f773.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452750923723:android:8350eff3892e3362ed884e",
+        "android_client_info": {
+          "package_name": "com.example.corepointhealthcare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfXY4fNilkr4Pq5Cld4WetXRn03UdYsEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
