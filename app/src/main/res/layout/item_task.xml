@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvTaskId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task"
+            android:textColor="@color/primary_navy"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvItemId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Item: item_001" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@color/primary_red"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="2dp"
+            android:text="Status: assigned"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="8dp"
+            android:background="@color/grey_light" />
+
+        <TextView
+            android:id="@+id/tvWorkerId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Assigned To: fvNWRbGZ..."
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvDeliveryAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Delivery: 123 Main Street" />
+
+        <TextView
+            android:id="@+id/tvDispatchedFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="From: Warehouse AMD" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="8dp"
+            android:background="@color/grey_light" />
+
+        <TextView
+            android:id="@+id/tvCreatedAt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Created: 5 Feb 2026"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tvCreatedBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By: Admin ID"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
